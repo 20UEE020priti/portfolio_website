@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Personal Portfolio Website
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fdd150786d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="top.jpg" class="logo">
+                <ul>
+                    <li>
+                        <a href="#header">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#services">Services</a>
+                    </li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Web Desiner
+                </p>
+                <h1>Hi, I'm <span>Priti</span>,<br> A student of NITA</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------About---------------- -->
+    <!-- <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imagep/user.jpg" alt="network-issue">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, et. Consequuntur optio temporibus harum vitae totam laudantium, reprehenderit aliquam cupiditate libero repellendus, ipsam dolor eligendi deserunt eaque tempora quos eos iusto distinctio at? Alias nobis aspernatur deleniti, quas a
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, minus sit unde tempora rem fugit doloremque animi voluptatum perferendis. Laborum?
+                   </p>
+
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links active-link" onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                   </div> -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="aboutme.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h3 class="para-graph"> Hello, I am Priti Sarkar,under graduate student pursuing electrical
+                        engineering
+                        from National Institute of Technology, Agartala. Always excited to learn something about new
+                        technologies. Interested in
+                        problem solving using data Structure and Algorithm, Web development for building web app, Data
+                        analytics.</h3>
+                    <div class="tab-titles"></div>
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <!--(active-link)in skils wala line <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                    <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+                    <!-- </div> -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Building Web apps</li>
+                            <li><span>Data Analysis</span><br>Analysis of Raw Data </li>
+                            <li><span>Data Structure and Algorithm</span><br>Problem solving</li>
+                        </ul>
+                    </div>
+                
+                    <p class="tab-links active-link" onclick="opentab('experience')">Experience</p>
+                    <div class="tab-contents active-tab" id="experience">
+                        <ul>
+                            <li><span>Web Development</span><br> making many web-apps using
+                                HTML,CSS,JavaScript.</li>
+                            <li><span>Data Analysis</span><br>
+                                analise many raw data sets using Python,Pandas library,jupiter-notebook.</li>
+                                <li><span>Problem solving</span><br> DSA problems using c,c++.</li>
+                        </ul>
+                    </div>
+                    <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>2017-2018</span><br>Madhyamik in Palatana Higher-Secondary School.</li>
+                            <li><span>2018-2020</span><br>Higher-Secondary Education in Udaipur Ramesh Higher-Secondary
+                                School.</li>
+                            <li><span>2020-2024</span><br>Bechelors Of Technology(NITA).</li>
+
+                        </ul>
+                    </div>
+                    <!-- </div> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------skils------------------------ -->
+    <!-- <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <li><span>Web Development</span><br>Building Web apps</li>
+            <li><span>Data Analysis</span><br>Analysis of Raw Data </li>
+            <li><span>DSA</span><br>Problems solving</li>
+
+        </ul>
+    </div>
+    <------------------------experiences------------------------>
+
+    <!-- ----------------services----------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Web Design</h2>
+                    <h5 class="ser-font">making many web-apps using
+                        HTML,CSS,JavaScript.</h5>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Data Analysis</h2>
+                    <h5 class="ser-font">analyse many raw data sets using Python,Pandas library,jupiter-notebook.</h5>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Problem solving</h2>
+                    <h5 class="ser-font">DSA problems using c,c++</h5>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------portfolio (my work)------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="webdevelop.webp" alt="some network-issue">
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>This is my First project, on the basis of Web development.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="data-analyse.webp" alt="some network-issue">
+                    <div class="layer">
+                        <h3>Cardio Activities Analysis</h3>
+                        <p>This is a data Analysis project.using pandas nampy Jupeter notebook</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="problem solving.jpg" alt="some network-issue">
+                    <div class="layer">
+                        <h3>Weather API</h3>
+                        <p>Weather forecast of Agartala,using HTML,CSS,JavaScript</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------------------------contact----------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>misspritisarkarudp@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7630984618</p>
+
+                    <div class="social-icons">
+                       <a href="https://github.com/20UEE020priti"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/priti-sarkar-aa1221241/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <a href="portfolio.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ Priti. Made <i class="fa-sharp fa-solid fa-heart"></i> This Portfolio Website
+            </p>
+        </div>
+
+    </div>
+    
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classlist.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <!-- ------------------for information store--------------------- -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwI0tE7kil0bgABVEVJFpULdWRjVP2mFUcGvSheiM1s-5VmHtPIJ6b4t78_5GAXF3v6dQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Submitted Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 500)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
